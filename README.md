@@ -4,7 +4,7 @@ Project ini adalah sebuah aplikasi berita yang dibangun dengan Flutter dan mengg
 
 ## Struktur File
 
-<img src="https://github.com/user-attachments/assets/6c2ee47a-305c-4405-8701-dac7f3064a6f" width="300"/>
+<img src="https://github.com/user-attachments/assets/6c2ee47a-305c-4405-8701-dac7f3064a6f" width="100"/>
 
 ### 1. **`api_service.dart`**
 Menyediakan berbagai metode untuk mengambil data dari API, seperti mengambil daftar berita berdasarkan sumber dan kategori, serta mengelola permintaan HTTP. File ini juga menangani error handling dan pemrosesan respons dari server.
@@ -39,7 +39,7 @@ Berisi kelas untuk model data pengguna jika aplikasi memerlukan informasi penggu
 ## Asset
 Aplikasi ini menggunakan beberapa asset untuk menampilkan logo tiap sumber berita dan avatar pengguna. Berikut adalah contoh asset yang digunakan:
 
-<img src="https://github.com/user-attachments/assets/3f02ef0a-9a7c-4806-b1f9-d49735524ad1" width="600"/>
+<img src="https://github.com/user-attachments/assets/3f02ef0a-9a7c-4806-b1f9-d49735524ad1" width="100"/>
 
 ## Referensi API
 Dokumentasi JSON API dan URL endpoint yang digunakan di program dapat diakses di:
