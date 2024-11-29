@@ -4,6 +4,8 @@ Project ini adalah sebuah aplikasi berita yang dibangun dengan Flutter dan mengg
 
 ## Struktur File
 
+<img src="https://github.com/user-attachments/assets/6c2ee47a-305c-4405-8701-dac7f3064a6f" width="600"/>
+
 ### 1. **`api_service.dart`**
 Menyediakan berbagai metode untuk mengambil data dari API, seperti mengambil daftar berita berdasarkan sumber dan kategori, serta mengelola permintaan HTTP. File ini juga menangani error handling dan pemrosesan respons dari server.
 
@@ -13,17 +15,17 @@ File yang bertanggung jawab untuk menginisialisasi aplikasi Flutter, menyiapkan 
 ### 3. **`news_list.dart`**
 Halaman utama untuk menampilkan berita berdasarkan sumbernya, yang berisi header, pencarian, notifikasi, dan berita rekomendasi.
    
-   ![News List](https://github.com/user-attachments/assets/0f46a960-8139-4aca-9cda-d56088545e6a)
+<img src="https://github.com/user-attachments/assets/0f46a960-8139-4aca-9cda-d56088545e6a" width="600"/>
 
 ### 4. **`news_category_page.dart`**
 Menampilkan daftar berita berdasarkan kategori yang dipilih oleh pengguna. Pengguna dapat memilih kategori tertentu untuk melihat daftar artikel berita yang relevan.
 
-   ![News Category Page](https://github.com/user-attachments/assets/d66d6056-82ed-44ca-9e9c-72bfb9c4e5a0)
+<img src="https://github.com/user-attachments/assets/d66d6056-82ed-44ca-9e9c-72bfb9c4e5a0" width="600"/>
 
 ### 5. **`news_detail_page.dart`**
 Menampilkan detail dari artikel berita yang dipilih. Halaman ini memuat informasi lengkap mengenai judul berita, deskripsi, gambar, dan link ke halaman sumber berita.
 
-   ![News Detail Page](https://github.com/user-attachments/assets/66855fc5-3da3-41a9-819b-b20d8c4c6f4c)
+<img src="https://github.com/user-attachments/assets/66855fc5-3da3-41a9-819b-b20d8c4c6f4c" width="600"/>
 
 ### 6. **`notification_page.dart`**
 Halaman untuk menampilkan notifikasi berita terbaru berdasarkan tanggal publikasi hari ini. Aplikasi akan memeriksa artikel berita yang dipublikasikan pada hari yang sama dan menampilkan informasi tersebut kepada pengguna.
@@ -37,7 +39,7 @@ Berisi kelas untuk model data pengguna jika aplikasi memerlukan informasi penggu
 ## Asset
 Aplikasi ini menggunakan beberapa asset untuk menampilkan logo tiap sumber berita dan avatar pengguna. Berikut adalah contoh asset yang digunakan:
 
-   ![Assets](https://github.com/user-attachments/assets/3f02ef0a-9a7c-4806-b1f9-d49735524ad1)
+<img src="https://github.com/user-attachments/assets/3f02ef0a-9a7c-4806-b1f9-d49735524ad1" width="600"/>
 
 ## Referensi API
 Dokumentasi JSON API dan URL endpoint yang digunakan di program dapat diakses di:
